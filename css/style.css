@@ -1,0 +1,268 @@
+
+/*===========================
+0 *** COMMON PART CSS START ***
+=============================*/
+body{
+   margin: 0;
+   padding: 0;
+   outline: 0;
+}
+.common-btn {
+    background-color:#FF5937;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    padding:10px 15px;
+    text-align: center;
+    margin-right: 30px;
+    border-radius:5px;
+    border:2px solid #FF5937;
+    outline: none;
+}
+.common-btn:hover{
+    background:transparent;
+    color: #FF5937;
+    text-decoration: none;
+}
+/*===========================
+1.0 *** NAV PART CSS START ***
+=============================*/
+.navbar{
+    position: absolute;
+    top:20px;
+    width:1170px;
+    z-index:9999;
+}
+.navbar .navbar-nav .nav-item{
+    padding-left:40px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color:#222222;
+}
+.download-cv-btn{
+    margin-right: 100px;
+}
+/*===========================
+2.0 *** BANNER PART CSS START ***
+=============================*/
+#banner {
+   background-image: url(../images/banner.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 300px;
+   position: relative;
+}
+.banner-text{
+    margin-top: 220px;
+}
+.banner-text h5{
+    color:#FF5937;
+    font-size: 20px;
+    line-height: 15px;
+}
+.banner-text h2{
+    font-size:70px;
+    line-height:70px;
+    color:#222222;
+}
+.banner-text p{
+    font-size: 20px;
+    line-height: 32px;
+    color: #666666;
+    margin-bottom:60px;
+}
+/*===========================
+3.0 *** WORK EXPRIENCE PART CSS START ***
+=============================*/
+#work-exprience{
+    padding-top:80px;
+}
+#work-exprience h2{
+    margin-bottom:80px;
+    text-align: center;
+}
+.work-ex-item{
+    margin-right:30px;
+    height:170px;
+    border-radius:10px;
+}
+.work-ex-item h3{
+   padding-top: 120px;
+   text-align: center;
+
+}
+.work-item-bg1{
+  background:#FFF2EF;
+}
+.work-item-bg2{
+    background:rgb(114, 2, 187,0.1);
+  }
+  .work-item-bg3{
+    background:rgb(0, 235, 199,0.1);
+  }
+  .work-item-bg4{
+  background:rgb(253, 226, 79,0.1);
+}
+/*===========================
+4.0 *** ABOUT PART CSS START ***
+=============================*/
+#about{
+    padding-top: 80px;
+    margin-top:50px;
+}
+.about-img img{
+    width:100%;
+   
+}
+.about-header{
+    background:rgb(255, 89, 55,0.1);
+    color:#FF5937;
+    width:130px;
+    height: 35px;
+    padding-top:5px;
+    text-align:center;
+    font-size: 14px;
+    line-height: 28px;
+}
+.about-text{
+    margin-top: 140px;
+}
+.about-text h3{
+    color: #222222;
+
+}
+.about-text p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 50px;
+  
+}
+/*===========================
+5.0 *** SERVICE PART CSS START ***
+=============================*/
+#service{
+    padding-top:80px;
+    margin-top: 50px;
+}
+
+/*===========================
+6.0 *** PORTFOLIO AREA START ***
+=============================*/
+
+#protfolios {
+    padding: 80px 0 40px 0;
+}
+#protfolios h3{
+    margin-top:20px;
+}
+
+#portfolio {
+    padding: 25px 0 80px;
+    width: 100%;
+}
+
+
+.portfolioFilter {
+    padding-bottom: 25px;
+}
+
+.portfolioFilter a {
+    margin-right: 25px;
+    color: #343a40;
+    background: #E5F7FF;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 6px 15px;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.portfolioFilter a:hover{
+    background: #FF5937;
+    color: #fff;
+}
+.portfolioFilter a.current {
+    background: #FF5937;
+    color: #fff;
+}
+.port-item{
+    margin-bottom:30px;
+}
+.port-item img{
+    width:100%;
+    height:100%;
+}
+
+/*===========================
+7.0 *** GET READY AREA START ***
+=============================*/
+
+.get-ready{
+    background:url(../images/get-ready.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.get-ready::after{
+    position: absolute;
+    background:rgb(79, 31, 165,0.70);
+    content:"";
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+}
+.get-ready-text{
+  position: relative;
+  z-index:999;
+  color:#fff;
+  left: 30px;
+}
+.get-ready-text h3{
+    font-size:44px;
+    line-height: 55px;
+}
+.contact-btn{
+    text-align: right;
+    color:#fff;
+    z-index:1;
+    margin-top:50px;
+  
+
+}
+/*===========================
+8.0 *** GET READY AREA START ***
+=============================*/ 
+#client-says{
+    padding: 80px 0 40px 0;
+}
+#client-says h3{
+  margin-top:20px;
+  margin-bottom: 70px;
+}
+#client-say{
+    padding: 25px 0 80px 0;
+    width:100%;
+}
+.client-says-text{
+    margin-top:100px;
+    border-radius: 12px;
+    box-shadow:2px 4px 12px;
+    height: 330px;
+}
+.client-says-text:hover{
+    margin-top:-40px;
+}
+.client-says-text p{
+    margin-left:30px;
+    padding-top:50px;
+    margin-right:30px;
+}
+
